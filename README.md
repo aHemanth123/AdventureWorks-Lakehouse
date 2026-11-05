@@ -1,4 +1,5 @@
-# AdventureWorks Lakehouse: Bronze → Silver → Gold on Databricks
+# AdventureWorks Lakehouse: 
+# Bronze → Silver → Gold on Databricks
 
 An end-to-end data engineering project that builds a **medallion architecture** (Bronze / Silver / Gold) on Databricks using **PySpark, Spark SQL and Delta Lake**, turning raw AdventureWorks sales CSVs into business-ready customer analytics.
 
@@ -54,20 +55,7 @@ An end-to-end data engineering project that builds a **medallion architecture** 
 
 Databricks (Serverless), PySpark, Spark SQL, Delta Lake, Unity Catalog.
 
-## Repository structure
-
-```
-adventureworks-databricks-lakehouse/
-├── README.md
-├── notebooks/
-│   ├── 01_Extract_AdventureWorks.py
-│   ├── 02_Silver_Transformations.py
-│   └── 03_Gold_Layer.py
-└── screenshots/
-    ├── bronze_tables.png
-    ├── bronze_rowcounts.png
-    ├── silver_rowcounts.png
-    └── gold_customer_ltv.png
+ 
 ```
 
 ## How to run
