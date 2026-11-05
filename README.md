@@ -48,8 +48,7 @@ An end-to-end data engineering project that builds a **medallion architecture** 
 
 - Money columns stored as strings with `$` and `,`, so a direct cast would fail.
 - 2,113 unshipped orders with null `ShipDateKey`, kept rather than dropped.
-- Placeholder `-1` customer and reseller rows representing sales without a named customer.
-- Columns with identical names across Customer and Reseller tables, resolved with prefixes.
+- Placeholder `-1` customer and reseller rows representing sales without a named customer. 
 
 ## Tech stack
 
